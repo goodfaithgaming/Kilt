@@ -1,9 +1,6 @@
 name: Gradle CI
 
-on:
-  push:
-    branches:
-      - 'version/*'
+on: [workflow_dispatch,push]
 
 permissions:
   contents: read
